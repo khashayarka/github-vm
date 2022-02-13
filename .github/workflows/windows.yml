@@ -22,7 +22,8 @@ jobs:
        Invoke-WebRequest https://raw.githubusercontent.com/RealKoolisw/VirtualMachine-GithubAction/main/resources/ngrok-user.bat -OutFile ngrok-user.bat
        Invoke-WebRequest https://raw.githubusercontent.com/RealKoolisw/VirtualMachine-GithubAction/main/resources/ngrok-start.bat -OutFile ngrok-start.bat
        Invoke-WebRequest https://raw.githubusercontent.com/RealKoolisw/VirtualMachine-GithubAction/main/resources/ngrok-loop.bat -OutFile ngrok-loop.bat
-    - name: Copy NSSM & Ngrok to Windows Directory.
+    - name: D:\a\_temp\707491fc-c119-43ed-98a2-0cd26a9da286.ps1:2
+  
       run: | 
         copy nssm.exe C:\Windows\System32
         copy ngrok.exe C:\Windows\System32
